@@ -1,0 +1,5 @@
+#single .featured-image img {
+    border-radius: 1rem;
+    box-shadow: 0px 8px 560px rgba(15, 80, 100, 0.16);
+    margin-bottom: 1rem;
+}
