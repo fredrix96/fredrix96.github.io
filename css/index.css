@@ -64,7 +64,7 @@ header .navbar {
 .tooltip-inner {
     line-height: 1rem;
 }
-.tooltip .tooltip-arrow { 
+.tooltip .tooltip-arrow {
     visibility: hidden !important;
 }
 
@@ -291,18 +291,18 @@ header .navbar {
 
 #experience .nav-item .nav-link {
     color: var(--text-color) !important;
-    border-bottom: 2px solid transparent; 
+    border-bottom: 2px solid transparent;
     border-radius: 0%;
     transition: none;
 }
 
 #experience .nav-item .nav-link.active {
     color: var(--text-color) !important;
-    border-bottom: 2px solid var(--primary-color); 
+    border-bottom: 2px solid var(--primary-color);
     opacity: 0.8;
 }
 
-#experience .nav-item .nav-link.active:hover { 
+#experience .nav-item .nav-link.active:hover {
     transition: none !important;
 }
 
