@@ -388,9 +388,9 @@ I am currently working on my own 2D game in Unity.
                                 </div>					
                                 				
                             </div>
-							
+							<div class="image">
 							<img src="/resources/colmeo.png" style="position:relative; float: right; clear: both; right:50px; bottom:125px;" alt="" width="100" height="100">
-							
+							</div>
 							<div class="pt-4">
 								I got the opportunity to have a short internship at Colmeo (Eye at Production) where I helped them with their app &ldquo;FilmTheFault&rdquo; during the month of January. I worked with Java in Android Studio.
 							</div>
@@ -428,9 +428,10 @@ I am currently working on my own 2D game in Unity.
                                 </div>                           						
                                 
                             </div>
-							
-							<img src="/resources/postnord.png" style="position:relative; float: right; clear: both; right:50px; bottom:70px;" alt="" width="160" height="70">
-							
+                            
+                            <div class="image">
+							    <img src="/resources/postnord.png" style="position:relative; float: right; clear: both; right:50px; bottom:70px;" alt="" width="160" height="70">
+                            </div>
                             <div class="pt-4">
                                 I distributed and collected letters from several mailboxes, postal agents, and companies. I also helped with food delivery for a company called &ldquo;Linas Matkasse&rdquo; for a few weeks during the time when PostNord and Linas Matkasse had a collaboration.
                             </div>
@@ -444,6 +445,27 @@ I am currently working on my own 2D game in Unity.
     </div>
 </section>
 
+
+<script type="text/javascript">
+     
+    let details = navigator.userAgent;
+
+    
+
+    let regexp = /android|iphone|kindle|ipad/i;
+
+    
+
+    let isMobileDevice = regexp.test(details);
+
+    var elements = document.getElementsByClassName('image');
+
+    if (isMobileDevice) {
+        for(let i = 0; i < elements.length; i++){
+            elements[i].style.display = "none";
+        }
+    }
+</script>
 <section id="education" class="py-5">
     <div class="container">
         <h3 class="text-center">Education</h3>
@@ -553,7 +575,7 @@ I am currently working on my own 2D game in Unity.
     var elements = document.getElementsByClassName('image');
 
     if (isMobileDevice) {
-        for(let i=0; i< elements.length; i++){
+        for(let i = 0; i < elements.length; i++){
             elements[i].style.display = "none";
         }
     }
@@ -565,44 +587,79 @@ I am currently working on my own 2D game in Unity.
         <div class="row justify-content-center px-3 px-md-5">
             
             <div class="col-lg-4 col-md-6 my-3">
-                <div class="card my-3 h-100" title="Hugo Profile">
+                <div class="card my-3 h-100" title="Unity 2D Game">
                     <div class="card-head">
-                        <img class="card-img-top" src="/images/projects/profile.png" alt="Hugo Profile">
+                        <img class="card-img-top" src="/resources/unity.png" alt="Unity 2D Game">
                     </div>
                     <div class="card-body bg-transparent p-3">
                         <div class="pb-2 bg-transparent">
                             
+                            <span class="badge badge-secondary">Unity</span>
+                            
+                            <span class="badge badge-secondary">C#</span>
+                            
+                            <span class="badge badge-secondary">Game</span>
+                            
                         </div>
-                        <h5 class="card-title bg-transparent mt-1">Hugo Profile</h5>
+                        <h5 class="card-title bg-transparent mt-1">Unity 2D Game</h5>
                         <div class="card-text bg-transparent secondary-font">
-                            A highly customizable and mobile first Hugo template for personal portfolio and blog.
+                            Currently working on a 2D game in Unity. You place buildings and gather an army to fight the never ending flow of enemies. The game is purely created programmatically. The art and music are created by me.
                         </div>
                     </div>
                     
                     <div class="card-footer py-3">
                         
                         <span class="m-1 mx-2">
-                            <a href="mailto:?subject=Hugo%20Profile%20Template&amp;body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f" target="_blank">
-                                <i class="fa fa-envelope"></i>
+                            <a href="https://github.com/fredrix96/MyUnity2DGame" target="_blank">
+                                <i class="fab fa-github"></i>
                             </a>
                         </span>
                         
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 my-3">
+                <div class="card my-3 h-100" title="Hell Loop">
+                    <div class="card-head">
+                        <img class="card-img-top" src="/resources/hellLoop.jpg" alt="Hell Loop">
+                    </div>
+                    <div class="card-body bg-transparent p-3">
+                        <div class="pb-2 bg-transparent">
+                            
+                            <span class="badge badge-secondary">DirectX 12</span>
+                            
+                            <span class="badge badge-secondary">C&#43;&#43;</span>
+                            
+                            <span class="badge badge-secondary">Game</span>
+                            
+                        </div>
+                        <h5 class="card-title bg-transparent mt-1">Hell Loop</h5>
+                        <div class="card-text bg-transparent secondary-font">
+                            A game made by me and ten other students at Blekinge Institute of Technology. It is built from the ground up with our own engine in DirectX 12.
+                        </div>
+                    </div>
+                    
+                    <div class="card-footer py-3">
+                        
                         <span class="m-1 mx-2">
-                            <a href="https://github.com/gurusabarish/hugo-profile" target="_blank">
+                            <a href="https://github.com/jocke1995/StortSpelProjekt" target="_blank">
                                 <i class="fab fa-github"></i>
                             </a>
                         </span>
                         
                         <span class="m-1 mx-2">
-                            <a href="https://twitter.com/intent/tweet?text=Check&#43;it&#43;out:&amp;url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile" target="_blank">
-                                <i class="fab fa-twitter"></i>
+                            <a href="https://youtu.be/EPoPFmjj784" target="_blank">
+                                <i class="fab fa-youtube"></i>
                             </a>
                         </span>
                         
                         
                         <span class="float-end">
-                            <a class="btn btn-sm" href="https://hugo-profile.netlify.app" target="_blank">
-                                Demo
+                            <a class="btn btn-sm" href="https://gamejolt.com/games/Hell_Loop/578483" target="_blank">
+                                Download
                             </a>
                         </span>
                         
@@ -612,67 +669,50 @@ I am currently working on my own 2D game in Unity.
             </div>
             
             <div class="col-lg-4 col-md-6 my-3">
-                <div class="card my-3 h-100" title="Image Converter">
+                <div class="card my-3 h-100" title="Daedalus&#39; Maze">
                     <div class="card-head">
-                        <img class="card-img-top" src="/images/projects/converter.jpg" alt="Image Converter">
+                        <img class="card-img-top" src="/resources/daedalusMaze.jpg" alt="Daedalus&#39; Maze">
                     </div>
                     <div class="card-body bg-transparent p-3">
                         <div class="pb-2 bg-transparent">
                             
+                            <span class="badge badge-secondary">OpenGL</span>
+                            
+                            <span class="badge badge-secondary">C&#43;&#43;</span>
+                            
+                            <span class="badge badge-secondary">Game</span>
+                            
                         </div>
-                        <h5 class="card-title bg-transparent mt-1">Image Converter</h5>
+                        <h5 class="card-title bg-transparent mt-1">Daedalus&#39; Maze</h5>
                         <div class="card-text bg-transparent secondary-font">
-                            A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
+                            The first game I made together with four other students at Blekinge Institute of Technology. It is built from the ground up with our own engine in OpenGL. Fun fact, a south korean Youtuber found and played this game. It has therefore been seen by more than 100k people. The link to his channel is the second Youtube logo below.
                         </div>
                     </div>
                     
                     <div class="card-footer py-3">
                         
                         <span class="m-1 mx-2">
-                            <a href="https://github.com/gurusabarish/converter" target="_blank">
+                            <a href="https://github.com/Whixx/Small-Game-Project" target="_blank">
                                 <i class="fab fa-github"></i>
                             </a>
                         </span>
-                        
-                        
-                        <span class="float-end">
-                            <a class="btn btn-sm" href="https://django-converter.herokuapp.com" target="_blank">
-                                Demo
-                            </a>
-                        </span>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="col-lg-4 col-md-6 my-3">
-                <div class="card my-3 h-100" title="Hugo Profile V2">
-                    <div class="card-head">
-                        <img class="card-img-top" src="/images/projects/profile2.jpg" alt="Hugo Profile V2">
-                    </div>
-                    <div class="card-body bg-transparent p-3">
-                        <div class="pb-2 bg-transparent">
-                            
-                        </div>
-                        <h5 class="card-title bg-transparent mt-1">Hugo Profile V2</h5>
-                        <div class="card-text bg-transparent secondary-font">
-                            A clean and simple Hugo template for personal portfolio and blog.
-                        </div>
-                    </div>
-                    
-                    <div class="card-footer py-3">
                         
                         <span class="m-1 mx-2">
-                            <a href="https://github.com/gurusabarish/HugoProfileV2" target="_blank">
-                                <i class="fab fa-github"></i>
+                            <a href="https://youtu.be/rK4MIVfmG8w" target="_blank">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </span>
+                        
+                        <span class="m-1 mx-2">
+                            <a href="https://youtu.be/G0b1Zi4N9lg" target="_blank">
+                                <i class="fab fa-youtube"></i>
                             </a>
                         </span>
                         
                         
                         <span class="float-end">
-                            <a class="btn btn-sm" href="https://hugo-profile-2.netlify.app" target="_blank">
-                                Demo V2
+                            <a class="btn btn-sm" href="https://gamejolt.com/games/daedalusmaze/404262" target="_blank">
+                                Download
                             </a>
                         </span>
                         
