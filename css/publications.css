@@ -1,0 +1,20 @@
+#publications h3 {
+    color: var(--primary-color) !important;
+}
+
+#publications * {
+    background-color: black !important;
+}
+
+#publications .tab-pane > * {
+    opacity: 0.9;
+}
+
+#publications .tab-pane small {
+    opacity: 0.8;
+}
+
+#publications .tab-pane ul {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}

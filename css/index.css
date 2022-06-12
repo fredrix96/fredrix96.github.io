@@ -506,6 +506,28 @@ header .navbar {
     color: var(--text-secondary-color) !important;
 }
 
+/* publications */
+#publications h3 {
+    color: var(--text-secondary-color) !important;
+}
+
+#publications * {
+    background-color: transparent !important;
+}
+
+#publications .tab-pane > * {
+    opacity: 0.9;
+}
+
+#publications .tab-pane small {
+    opacity: 0.8;
+}
+
+#publications .tab-pane ul {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
 /* contact */
 
 #contact h3 {

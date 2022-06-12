@@ -331,6 +331,28 @@ Tags | Fredrik Lind Portfolio
             document.getElementById("loading-icons").style.display = "block";
         } catch(err) {}
     }
-</script></body>
+</script>
+
+<script>
+     
+    let details = navigator.userAgent;
+
+    
+
+    let regexp = /android|iphone|kindle|ipad/i;
+
+    
+
+    let isMobileDevice = regexp.test(details);
+
+    var elements = document.getElementsByClassName('image');
+
+    if (isMobileDevice) {
+        for(let i = 0; i < elements.length; i++){
+            elements[i].style.display = "none";
+        }
+    }
+</script>
+</body>
 
 </html>
