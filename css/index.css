@@ -507,25 +507,45 @@ header .navbar {
 }
 
 /* publications */
+
+#publications a {
+    text-decoration: none;
+}
+
 #publications h3 {
     color: var(--text-secondary-color) !important;
 }
 
-#publications * {
-    background-color: transparent !important;
+#publications .card {
+    background-color: var(--secondary-color) !important;
+    border-radius: 1rem;
+    box-shadow: 0 0 36px rgba(0,0,0,0.1);
+    /* transform: translate3d(0, 0, 0); */
+    transition: box-shadow .2s linear,opacity .2s linear;
+    border: 2px solid transparent;
 }
 
-#publications .tab-pane > * {
+#publications a.card {
+    cursor: alias;
+}
+
+#publications .card h5 {
+    color: var(--text-color) !important;
     opacity: 0.9;
 }
 
-#publications .tab-pane small {
-    opacity: 0.8;
+#publications .card:hover {
+    border: 2px solid var(--text-color);
+    transition: .3s;
+}
+#publications .card:focus {
+    border: 2px solid var(--text-color);
+    transition: .3s;
 }
 
-#publications .tab-pane ul {
-    padding-top: 1%;
-    padding-bottom: 1%;
+#publications .card-text {
+    background-color: var(--secondary-color) !important;
+    color: var(--text-secondary-color) !important;
 }
 
 /* contact */

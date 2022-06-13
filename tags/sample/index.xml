@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fredrik Lind Portfolio</title>
-    <link>https://fredrix96.github.io/</link>
-    <description>Recent content on Fredrik Lind Portfolio</description>
+    <title>Sample on Fredrik Lind Portfolio</title>
+    <link>https://fredrix96.github.io/tags/sample/</link>
+    <description>Recent content in Sample on Fredrik Lind Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Apr 2021 22:53:58 +0530</lastBuildDate><atom:link href="https://fredrix96.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Apr 2021 22:53:58 +0530</lastBuildDate><atom:link href="https://fredrix96.github.io/tags/sample/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Emoji Support</title>
       <link>https://fredrix96.github.io/emoji-support/</link>
