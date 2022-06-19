@@ -94,12 +94,6 @@ Sample | Fredrik Lind Portfolio
   
   
   <script src="/bootstrap-5/js/bootstrap.bundle.js"></script>
-<script>
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
 
 
 
@@ -111,7 +105,7 @@ Sample | Fredrik Lind Portfolio
                 
                 <img src="/resources/portfolio.png" width="30" height="30"
                     class="d-inline-block align-top">
-                Profile
+                Home
                 
             </a>
 
@@ -126,6 +120,38 @@ Sample | Fredrik Lind Portfolio
             
             <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
                 <ul class="navbar-nav ms-auto text-center">
+
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text dropdown">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Show all pages">
+                            Pages
+                        </a>
+                        <div class="dropdown-menu shadow-lg rounded" aria-labelledby="navbarDropdown">
+                            
+                            <a class="dropdown-item text-center nav-link" href="/"
+                                title="Home Page">
+                                Home
+                            </a>
+                            
+                            <a class="dropdown-item text-center nav-link" href="/metaballs"
+                                title="Metaballs Page">
+                                Metaballs
+                            </a>
+                            
+                            <a class="dropdown-item text-center nav-link" href="/physicsgame"
+                                title="Unity Physics Demo Page">
+                                Unity Physics Demo
+                            </a>
+                            
+                        </div>
+                    </li>
+                    
+                    
+
                     
                     <li class="nav-item navbar-text">
                         <a class="nav-link" href="/#about" aria-label="about">About</a>
@@ -167,32 +193,6 @@ Sample | Fredrik Lind Portfolio
                         <a class="nav-link" href="/#contact"
                             aria-label="contact">Contact</a>
                     </li>
-                    
-
-                    
-                    
-                    
-                    
-                    <li class="nav-item navbar-text dropdown">
-                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Example dropdown menu">
-                            Pages
-                        </a>
-                        <div class="dropdown-menu shadow-lg rounded" aria-labelledby="navbarDropdown">
-                            
-                            <a class="dropdown-item text-center nav-link" href="/"
-                                title="Profile page">
-                                Profile
-                            </a>
-                            
-                            <a class="dropdown-item text-center nav-link" href="/blogs"
-                                title="Blog posts">
-                                Blog
-                            </a>
-                            
-                        </div>
-                    </li>
-                    
                     
                 </ul>
 
@@ -335,14 +335,10 @@ To enable emoji globally, set enableEmoji to true in your site’s configuration
     </div>
 </div></footer>
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
+    if (document.body.className.includes("light")) {
         document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
+        localStorage.setItem("pref-theme", 'dark');
     }
-
 </script>
 
 <script>

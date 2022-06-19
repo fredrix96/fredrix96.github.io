@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ray-marching on Fredrik Lind Portfolio</title>
+    <link>https://fredrix96.github.io/tags/ray-marching/</link>
+    <description>Recent content in ray-marching on Fredrik Lind Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Jun 2022 02:41:35 +0200</lastBuildDate><atom:link href="https://fredrix96.github.io/tags/ray-marching/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Metaballs</title>
+      <link>https://fredrix96.github.io/metaballs/</link>
+      <pubDate>Thu, 16 Jun 2022 02:41:35 +0200</pubDate>
+      
+      <guid>https://fredrix96.github.io/metaballs/</guid>
+      <description>Unity 2D project for Game Pysics course A Unity 2D project made by me and another student for our game physics course. The project uses our own projectile and explosion physics. Configuration Speed: Sides (a,d)Height (up,down)Depth (w, s) Camera Position </description>
+    </item>
+    
+  </channel>
+</rss>

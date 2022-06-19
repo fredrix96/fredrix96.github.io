@@ -20,5 +20,25 @@ The Emoji cheat sheet is a useful reference for emoji shorthand codes.
 N.B. The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform.</description>
     </item>
     
+    <item>
+      <title>Metaballs</title>
+      <link>https://fredrix96.github.io/metaballs/</link>
+      <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://fredrix96.github.io/metaballs/</guid>
+      <description>Introduction I made this project for the course &amp;ldquo;Game Techniques for the Web&amp;rdquo; during my time at Blekinge Institute of Technology. It is built with javascript, css and html.
+Metaballs Metaballs are n-dimensional (in this case three-dimensional) isosurfaces, which are surface respresentations of points, that meld together at a chosen distance. Metaballs can be rendered in many different ways, but I have used ray-marching, which is a technique where rays are stepping through the space, one ray per each pixel on the screen, until they register collisions and returns a color.</description>
+    </item>
+    
+    <item>
+      <title>Unity 2D: Game Physics - Projectiles, Explosions and Shockwaves</title>
+      <link>https://fredrix96.github.io/physicsgame/</link>
+      <pubDate>Thu, 22 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://fredrix96.github.io/physicsgame/</guid>
+      <description>Introduction This small game project was done together with another student for the course &amp;ldquo;Game Physics&amp;rdquo; during my time at Blekinge Institute of Technology. It is built with C# in Unity 2D.
+About the project All of Unity&amp;rsquo;s physics are turned off. That means that all of the physics that are seen in this project have been made by us. The physics are based on real-life formulas of objects traveling through air with air resistance, the impacts and sizes of explosions and the speed and movement of their shockwaves.</description>
+    </item>
+    
   </channel>
 </rss>
