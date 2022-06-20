@@ -295,6 +295,8 @@ The colors are randomized each time you refresh this page.</p>
             var aspect = ctx.height / ctx.width;
             ctx.width  = window.innerHeight / 2;
             ctx.height = ctx.width * aspect;
+            ctx.width = screen.height;
+            ctx.height = screen.height;
         }
     </script>
 </div>
