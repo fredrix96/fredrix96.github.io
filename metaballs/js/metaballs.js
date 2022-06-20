@@ -45,6 +45,8 @@ function getFragmentShader() {
     uniform vec4 metaballs[NR_OF_METABALLS];
     uniform vec3 diffuseColors[NR_OF_METABALLS];
 
+    uniform vec2 res;
+
     struct Ray
     {
       vec3 origin;
@@ -79,7 +81,7 @@ function getFragmentShader() {
     Ray initRay()
     {
       vec2 pos = vec2(gl_FragCoord.xy);
-      vec2 res = vec2(1280, 720);
+      //vec2 res = vec2(1280, 720);
       vec2 interp = pos / res;
 
       vec4 rayDirection = mix(
@@ -728,6 +730,7 @@ var colorData = new Float32Array(3 * nrOfMetaballs);
 for (var i = 0; i < nrOfMetaballs; i++)
 {
   var radius = getRandomInt(1, 10);
+  radius = radius;
   metaballs.push(
   {
     // Metaballs data
@@ -804,6 +807,7 @@ function main()
 	var u_Light = gl.getUniformLocation(program, "light");
 	var u_Metaballs = gl.getUniformLocation(program, "metaballs");
   var u_DiffuseColors = gl.getUniformLocation(program, "diffuseColors");
+  var u_Res = gl.getUniformLocation(program, "res");
 
   // Lookup raydata
   var u_ray00 = gl.getUniformLocation(program, "ray00");
@@ -921,6 +925,8 @@ function main()
     camY.value = eyeVec[1];
     camZ.value = eyeVec[2];
     gl.uniform3fv(u_Cam, new Float32Array([camX.value, camY.value, camZ.value]));
+
+    gl.uniform2fv(u_Res, new Float32Array([gl.canvas.width, gl.canvas.height]));
 
     lightPosition = new Float32Array([camX.value, camY.value, -camZ.value]);
 

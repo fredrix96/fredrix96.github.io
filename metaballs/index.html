@@ -279,30 +279,29 @@ The colors are randomized each time you refresh this page.</p>
     <script type="text/javascript" src="https://fredrix96.github.io//metaballs/lib/cuon-matrix.js"></script>
     <script type="text/javascript" src="https://fredrix96.github.io//metaballs/lib/gl-matrix/dist/gl-matrix.js"></script>
 
-    <script>
-         
-        let details = navigator.userAgent;
-    
-        
-
-        let regexp = /android|iphone|kindle|ipad/i;
-    
-        
-
-        let isMobileDevice = regexp.test(details);
-    
-        var element = document.getElementById("world");
-    
-        
-            var ctx = document.getElementById("world");
-            var aspect = ctx.height / ctx.width;
-            ctx.width  = window.innerHeight / 2;
-            ctx.height = ctx.width * aspect;
-            
-            
-        
-    </script>
 </div>
+
+<script>
+     
+    let details = navigator.userAgent;
+
+    
+
+    let regexp = /android|iphone|kindle|ipad/i;
+
+    
+
+    let isMobileDevice = regexp.test(details);
+
+    
+        var ctx = document.getElementById("world");
+        var aspect = ctx.height / ctx.width;
+        ctx.width  = 150 * 2;
+        ctx.height = 84 * 2;
+        
+        
+    
+</script>
 
           </article>
         </div>
