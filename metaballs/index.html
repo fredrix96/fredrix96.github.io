@@ -271,12 +271,33 @@ The colors are randomized each time you refresh this page.</p>
     </table>
 
     
-    <script type="text/javascript" src="https://fredrix96.github.io//lib/webgl-utils.js"></script>
-    <script type="text/javascript" src="https://fredrix96.github.io//js/metaballs.js"></script>
-    <script type="text/javascript" src="https://fredrix96.github.io//lib/cuon-matrix.js"></script>
-    <script type="text/javascript" src="https://fredrix96.github.io//lib/gl-matrix/dist/gl-matrix.js"></script>
-</div>
+    <script type="text/javascript" src="https://fredrix96.github.io//metaballs/lib/webgl-utils.js"></script>
+    <script type="text/javascript" src="https://fredrix96.github.io//metaballs/js/metaballs.js"></script>
+    <script type="text/javascript" src="https://fredrix96.github.io//metaballs/lib/cuon-matrix.js"></script>
+    <script type="text/javascript" src="https://fredrix96.github.io//metaballs/lib/gl-matrix/dist/gl-matrix.js"></script>
 
+    <script>
+         
+        let details = navigator.userAgent;
+    
+        
+
+        let regexp = /android|iphone|kindle|ipad/i;
+    
+        
+
+        let isMobileDevice = regexp.test(details);
+    
+        var element = document.getElementById("world");
+    
+        if (isMobileDevice) {
+            var ctx = document.getElementById("world");
+            var aspect = ctx.height / ctx.width;
+            ctx.width  = window.innerHeight / 2;
+            ctx.height = ctx.width * aspect;
+        }
+    </script>
+</div>
 
           </article>
         </div>
