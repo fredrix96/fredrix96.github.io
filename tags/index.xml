@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Fredrik Lind Portfolio</title>
-    <link>https://fredrix96.github.io/tags/</link>
+    <link>http://fredriklind.me/tags/</link>
     <description>Recent content in Tags on Fredrik Lind Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Apr 2021 22:53:58 +0530</lastBuildDate><atom:link href="https://fredrix96.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Apr 2021 22:53:58 +0530</lastBuildDate><atom:link href="http://fredriklind.me/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Emoji support</title>
-      <link>https://fredrix96.github.io/tags/emoji-support/</link>
+      <link>http://fredriklind.me/tags/emoji-support/</link>
       <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
       
-      <guid>https://fredrix96.github.io/tags/emoji-support/</guid>
+      <guid>http://fredriklind.me/tags/emoji-support/</guid>
       <description></description>
     </item>
     
     <item>
       <title>example</title>
-      <link>https://fredrix96.github.io/tags/example/</link>
+      <link>http://fredriklind.me/tags/example/</link>
       <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
       
-      <guid>https://fredrix96.github.io/tags/example/</guid>
+      <guid>http://fredriklind.me/tags/example/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sample</title>
-      <link>https://fredrix96.github.io/tags/sample/</link>
+      <link>http://fredriklind.me/tags/sample/</link>
       <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
       
-      <guid>https://fredrix96.github.io/tags/sample/</guid>
+      <guid>http://fredriklind.me/tags/sample/</guid>
       <description></description>
     </item>
     

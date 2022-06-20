@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fredrik Lind Portfolio</title>
-    <link>https://fredrix96.github.io/</link>
+    <link>http://fredriklind.me/</link>
     <description>Recent content on Fredrik Lind Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Apr 2021 22:53:58 +0530</lastBuildDate><atom:link href="https://fredrix96.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Apr 2021 22:53:58 +0530</lastBuildDate><atom:link href="http://fredriklind.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Emoji Support</title>
-      <link>https://fredrix96.github.io/emoji-support/</link>
+      <link>http://fredriklind.me/emoji-support/</link>
       <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
       
-      <guid>https://fredrix96.github.io/emoji-support/</guid>
+      <guid>http://fredriklind.me/emoji-support/</guid>
       <description>Emoji can be enabled in a Hugo project in a number of ways. :zap:
 Emoji Support The emojify function can be called directly in templates or Inline Shortcodes.
 To enable emoji globally, set enableEmoji to true in your site’s configuration and then you can type emoji shorthand codes directly in content files; e.g.
@@ -22,20 +22,20 @@ N.B. The above steps enable Unicode Standard emoji characters and sequences in H
     
     <item>
       <title>Metaballs</title>
-      <link>https://fredrix96.github.io/metaballs/</link>
+      <link>http://fredriklind.me/metaballs/</link>
       <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://fredrix96.github.io/metaballs/</guid>
+      <guid>http://fredriklind.me/metaballs/</guid>
       <description>Introduction I made this project for the course &amp;ldquo;Game Techniques for the Web&amp;rdquo; during my time at Blekinge Institute of Technology. It is built with javascript, css and html.
 Metaballs Metaballs are n-dimensional (in this case three-dimensional) isosurfaces, which are surface respresentations of points, that meld together at a chosen distance. Metaballs can be rendered in many different ways, but I have used ray-marching, which is a technique where rays are stepping through the space, one ray per each pixel on the screen, until they register collisions and returns a color.</description>
     </item>
     
     <item>
       <title>Unity 2D: Game Physics - Projectiles, Explosions and Shockwaves</title>
-      <link>https://fredrix96.github.io/physicsgame/</link>
+      <link>http://fredriklind.me/physicsgame/</link>
       <pubDate>Thu, 22 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://fredrix96.github.io/physicsgame/</guid>
+      <guid>http://fredriklind.me/physicsgame/</guid>
       <description>Introduction This small game project was done together with another student for the course &amp;ldquo;Game Physics&amp;rdquo; during my time at Blekinge Institute of Technology. It is built with C# in Unity 2D.
 About the project All of Unity&amp;rsquo;s physics are turned off. That means that all of the physics that are seen in this project have been made by us. The physics are based on real-life formulas of objects traveling through air with air resistance, the impacts and sizes of explosions and the speed and movement of their shockwaves.</description>
     </item>

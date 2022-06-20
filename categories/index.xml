@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Fredrik Lind Portfolio</title>
-    <link>https://fredrix96.github.io/categories/</link>
+    <link>http://fredriklind.me/categories/</link>
     <description>Recent content in Categories on Fredrik Lind Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://fredrix96.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="http://fredriklind.me/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
