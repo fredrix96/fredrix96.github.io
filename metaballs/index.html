@@ -290,13 +290,13 @@ The colors are randomized each time you refresh this page.</p>
     
         var element = document.getElementById("world");
     
-        if (isMobileDevice) {
+        if (!isMobileDevice) {
             var ctx = document.getElementById("world");
             var aspect = ctx.height / ctx.width;
             ctx.width  = window.innerHeight / 2;
             ctx.height = ctx.width * aspect;
-            ctx.width = screen.height;
-            ctx.height = screen.height;
+            ctx.width = screen.width / 2;
+            ctx.height = ctx.width * aspect;
         }
     </script>
 </div>
