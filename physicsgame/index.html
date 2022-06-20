@@ -315,7 +315,18 @@ You shoot with Space button.</p>
       
       
 
-      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+       
+      let details = navigator.userAgent;
+
+      
+
+      let regexp = /android|iphone|kindle|ipad/i;
+
+      
+
+      let isMobileDevice = regexp.test(details);
+
+      if (isMobileDevice) {
         container.className = "unity-mobile";
         
         
