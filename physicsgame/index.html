@@ -290,10 +290,10 @@ You shoot with Space button.</p>
         if (type == 'error') div.style = 'background: red; padding: 10px;';
         else {
           if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
-          setTimeout(function() {
-            warningBanner.removeChild(div);
-            updateBannerVisibility();
-          }, 5000);
+          
+          
+          
+          
         }
         updateBannerVisibility();
       }
@@ -331,7 +331,9 @@ You shoot with Space button.</p>
         
         
         config.devicePixelRatio = 1;
-        unityShowBanner('WebGL builds are not supported on mobile devices.');
+        unityShowBanner('WARNING: Unity´s WebGL builds are not supported on mobile devices and may not work as intended!');
+        canvas.style.width = "300px";
+        canvas.style.height = "168px";
       } else {
         canvas.style.width = "1280px";
         canvas.style.height = "720px";
