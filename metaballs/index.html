@@ -293,14 +293,11 @@ The colors are randomized each time you refresh this page.</p>
 
     let isMobileDevice = regexp.test(details);
 
-    
+    if (isMobileDevice) {
         var ctx = document.getElementById("world");
-        var aspect = ctx.height / ctx.width;
         ctx.width  = 150 * 2;
         ctx.height = 84 * 2;
-        
-        
-    
+    }
 </script>
 
           </article>
