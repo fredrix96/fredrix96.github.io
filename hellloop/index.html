@@ -37,7 +37,8 @@ if (!doNotTrack) {
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
     <meta property="og:title" content="Large Game Project - Hell Loop" />
-<meta property="og:description" content="Preview &lt;!DOCTYPE html&gt; Introduction I made this game together with 10 other students for the course &ldquo;Large Game Project&rdquo; at Blekinge Institute of Technology. The project went on from August 2020 until January 2021. We all worked from home through the program &ldquo;Discord&rdquo; thanks to the Covid pandemic. We followed the Agile Scrum methodology where we had meetings every morning and sprints to follow. Our sprints lasted for two weeks each." />
+<meta property="og:description" content="Preview Introduction I made this game together with 10 other students for the course &ldquo;Large Game Project&rdquo; at Blekinge Institute of Technology. The project went on from August 2020 until January 2021. We all worked from home through the program &ldquo;Discord&rdquo; thanks to the Covid pandemic. We followed the Agile Scrum methodology where we had meetings every morning and sprints to follow. Our sprints lasted for two weeks each.
+About the game The game was made with C&#43;&#43; with our own built DirectX 12 engine." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://fredriklind.me/hellloop/" /><meta property="article:section" content="" />
 <meta property="article:published_time" content="2021-01-17T00:00:00+00:00" />
@@ -46,7 +47,8 @@ if (!doNotTrack) {
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Large Game Project - Hell Loop"/>
-<meta name="twitter:description" content="Preview &lt;!DOCTYPE html&gt; Introduction I made this game together with 10 other students for the course &ldquo;Large Game Project&rdquo; at Blekinge Institute of Technology. The project went on from August 2020 until January 2021. We all worked from home through the program &ldquo;Discord&rdquo; thanks to the Covid pandemic. We followed the Agile Scrum methodology where we had meetings every morning and sprints to follow. Our sprints lasted for two weeks each."/>
+<meta name="twitter:description" content="Preview Introduction I made this game together with 10 other students for the course &ldquo;Large Game Project&rdquo; at Blekinge Institute of Technology. The project went on from August 2020 until January 2021. We all worked from home through the program &ldquo;Discord&rdquo; thanks to the Covid pandemic. We followed the Agile Scrum methodology where we had meetings every morning and sprints to follow. Our sprints lasted for two weeks each.
+About the game The game was made with C&#43;&#43; with our own built DirectX 12 engine."/>
 
     
     
@@ -232,35 +234,9 @@ Large Game Project - Hell Loop | Fredrik Lind Portfolio
           
           <article class="page-content  p-2">
           <h2 id="preview">Preview</h2>
-<!DOCTYPE html>
-<html lang="en-us">
-  <body>
-    <div id="container">
-      <iframe id="video" width="1280" height="720" src="https://www.youtube.com/embed/EPoPFmjj784?autoplay=1&mute=1" title="Preview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-  </body>
-</html>
-
-<script>
-   
-  let details = navigator.userAgent;
-
-  
-
-  let regexp = /android|iphone|kindle|ipad/i;
-
-  
-
-  let isMobileDevice = regexp.test(details);
-
-  var element = document.getElementById('video');
-
-  if (isMobileDevice) {
-      element.style.width = "300px";
-      element.style.height = "168px";
-  }
-</script>
-
+<div id="container">
+  <iframe id="video" width="1280" height="720" src="https://www.youtube.com/embed/EPoPFmjj784?autoplay=1&mute=1" title="Preview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 <h2 id="introduction">Introduction</h2>
 <p>I made this game together with 10 other students for the course &ldquo;Large Game Project&rdquo; at Blekinge Institute of Technology.
 The project went on from August 2020 until January 2021. 
@@ -289,14 +265,14 @@ while the boxes can be selected, have their own textures and can send various ca
 These calls are made via the engine&rsquo;s event system and via function calls.</p>
 <br />
 <div align="center" >
-  <img src="../resources/quads.jpg" width="480" title="Figure 1">
+  <img class="figure" src="../resources/quads.jpg" width="480" title="Figure 1">
   <div style="width:480px">
     Figur 1: A quad on the screen. It consists of two triangles which can be seen on the left side of the figure. The quads can have a color and a texture, seen on the right side.
   </div>
 </div>
 <br />
 <div align="center" >
-  <img src="../resources/text.jpg" width="480" title="Figure 2">
+  <img class="figure" src="../resources/text.jpg" width="480" title="Figure 2">
   <div style="width:480px">
     Figur 2: Texts consist of one quad per character. The quads can be seen in the upper part of the figure, while the text (result) can be seen in the lower part.
   </div>
@@ -305,6 +281,34 @@ These calls are made via the engine&rsquo;s event system and via function calls.
 <p>The GUI system is visible throughout the whole game.
 The system is needed so that the user can navigate menus and get the information about what is going on in the game, such as how many enemies the user has defeated,
 how much life the user has left, how much time has passed in certain rounds and get information about what the various upgrades in the store do.</p>
+<script>
+  /* Storing user's device details in a variable*/
+  let details = navigator.userAgent;
+
+  /* Creating a regular expression
+  containing some mobile devices keywords
+  to search it in details string*/
+  let regexp = /android|iphone|kindle|ipad/i;
+
+  /* Using test() method to search regexp in details
+  it returns boolean value*/
+  let isMobileDevice = regexp.test(details);
+
+  var video = document.getElementById('video');
+  var figures = document.getElementsByClass('figure');
+
+  if (isMobileDevice) {
+      video.style.width = "300px";
+      video.style.height = "168px";
+
+      foreach (var fig in figures)
+      {
+        fig.style.width = "300px";
+        fig.style.height = "168px";
+      }
+  }
+</script><blockquote>
+</blockquote>
 
           </article>
         </div>
