@@ -236,7 +236,7 @@ Large Game Project - Hell Loop | Fredrik Lind Portfolio
 <html lang="en-us">
   <body>
     <div id="container">
-      <iframe width="1280" height="720" src="https://www.youtube.com/embed/EPoPFmjj784?autoplay=1&mute=1" title="Preview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe id="video" width="1280" height="720" src="https://www.youtube.com/embed/EPoPFmjj784?autoplay=1&mute=1" title="Preview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </body>
 </html>
@@ -279,7 +279,7 @@ I have also worked with the game&rsquo;s screen size and resolution via DirectX 
 swapchain, created some textures for the GUI system, implemented the aim and crosshair, designed the
 different rooms in the game, edited the background music plus ambient sounds, and added the ability to
 change the brightness of the game via the game&rsquo;s settings.</p>
-<h2 id="the-gui-system">The GUI system</h2>
+<h3 id="the-gui-system">The GUI system</h3>
 <p>The GUI system was the biggest technique that I contributed with. 
 The GUI system processes 2D elements, such as quads (see Figure 1), and texts (see Figure 2). 
 These are then drawn directly on the screen via &ldquo;normalized device coordinates&rdquo; NDC and therefore does not use any world coordinates.
