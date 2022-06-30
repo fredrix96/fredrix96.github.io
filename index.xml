@@ -41,6 +41,15 @@ Metaballs Metaballs are n-dimensional (in this case three-dimensional) isosurfac
     </item>
     
     <item>
+      <title>Small Game Project - Daedalus&#39; Maze</title>
+      <link>http://fredriklind.me/daedalusmaze/</link>
+      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://fredriklind.me/daedalusmaze/</guid>
+      <description>Introduction This is the first game that I ever made and I worked together with four other students for the course &amp;ldquo;Small Game Project&amp;rdquo; at Blekinge Institute of Technology. The project went on from January 2019 until late March 2019. We all worked together in a room where we had ours desks placed together as a group. We followed the Agile Scrum methodology where we had meetings every morning and sprints to follow.</description>
+    </item>
+    
+    <item>
       <title>Unity 2D: Game Physics - Projectiles, Explosions and Shockwaves</title>
       <link>http://fredriklind.me/physicsgame/</link>
       <pubDate>Thu, 22 Nov 2018 00:00:00 +0000</pubDate>
@@ -48,6 +57,25 @@ Metaballs Metaballs are n-dimensional (in this case three-dimensional) isosurfac
       <guid>http://fredriklind.me/physicsgame/</guid>
       <description>Introduction This small game project was done together with another student for the course &amp;ldquo;Game Physics&amp;rdquo; during my time at Blekinge Institute of Technology. It is built with C# in Unity 2D.
 About the project All of Unity&amp;rsquo;s physics are turned off. That means that all of the physics that are seen in this project have been made by us. The physics are based on real-life formulas of objects traveling through air with air resistance, the impacts and sizes of explosions and the speed and movement of their shockwaves.</description>
+    </item>
+    
+    <item>
+      <title>COMING SOON</title>
+      <link>http://fredriklind.me/myunitygame/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://fredriklind.me/myunitygame/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smaller Projects</title>
+      <link>http://fredriklind.me/smallprojects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://fredriklind.me/smallprojects/</guid>
+      <description>Introduction Here is my collection of smaller projects that I have been working on during the years. I put them here because I feel like it is good to show everything that I have done, but at the same time I do not want these smaller projects to get in the way for the bigger and &amp;ldquo;more important&amp;rdquo; ones. The projects are listed from earliest to latest.
+Projects Metaballs | 2020-05-25 Unity 2D: Game Physics - Projectiles, Explosions and Shockwaves | 2018-11-22 </description>
     </item>
     
   </channel>

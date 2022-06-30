@@ -36,19 +36,17 @@ if (!doNotTrack) {
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
-    <meta property="og:title" content="Metaballs" />
-<meta property="og:description" content="Introduction I made this project for the course &ldquo;Game Techniques for the Web&rdquo; during my time at Blekinge Institute of Technology. It is built with javascript, css and html.
-Metaballs Metaballs are n-dimensional (in this case three-dimensional) isosurfaces, which are surface respresentations of points, that meld together at a chosen distance. Metaballs can be rendered in many different ways, but I have used ray-marching, which is a technique where rays are stepping through the space, one ray per each pixel on the screen, until they register collisions and returns a color." />
+    <meta property="og:title" content="Small Game Project - Daedalus&#39; Maze" />
+<meta property="og:description" content="Introduction This is the first game that I ever made and I worked together with four other students for the course &ldquo;Small Game Project&rdquo; at Blekinge Institute of Technology. The project went on from January 2019 until late March 2019. We all worked together in a room where we had ours desks placed together as a group. We followed the Agile Scrum methodology where we had meetings every morning and sprints to follow." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://fredriklind.me/metaballs/" /><meta property="article:section" content="" />
-<meta property="article:published_time" content="2020-05-25T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-05-25T00:00:00+00:00" /><meta property="og:site_name" content="My Portfolio" />
+<meta property="og:url" content="http://fredriklind.me/daedalusmaze/" /><meta property="article:section" content="" />
+<meta property="article:published_time" content="2019-03-22T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-03-22T00:00:00+00:00" /><meta property="og:site_name" content="My Portfolio" />
 
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Metaballs"/>
-<meta name="twitter:description" content="Introduction I made this project for the course &ldquo;Game Techniques for the Web&rdquo; during my time at Blekinge Institute of Technology. It is built with javascript, css and html.
-Metaballs Metaballs are n-dimensional (in this case three-dimensional) isosurfaces, which are surface respresentations of points, that meld together at a chosen distance. Metaballs can be rendered in many different ways, but I have used ray-marching, which is a technique where rays are stepping through the space, one ray per each pixel on the screen, until they register collisions and returns a color."/>
+<meta name="twitter:title" content="Small Game Project - Daedalus&#39; Maze"/>
+<meta name="twitter:description" content="Introduction This is the first game that I ever made and I worked together with four other students for the course &ldquo;Small Game Project&rdquo; at Blekinge Institute of Technology. The project went on from January 2019 until late March 2019. We all worked together in a room where we had ours desks placed together as a group. We followed the Agile Scrum methodology where we had meetings every morning and sprints to follow."/>
 
     
     
@@ -95,7 +93,7 @@ Metaballs Metaballs are n-dimensional (in this case three-dimensional) isosurfac
 <script defer src="/fontawesome-5/all-5.15.4.js"></script>
 
   <title>
-Metaballs | Fredrik Lind
+Small Game Project - Daedalus&#39; Maze | Fredrik Lind
 
   </title>
 </head>
@@ -224,92 +222,76 @@ Metaballs | Fredrik Lind
       <div class="col-sm-12 col-md-12 col-lg-0">
         <div class="pr-lg-4">
           <div class="title mb-5">
-            <h1 class="text-center mb-4">Metaballs</h1>
+            <h1 class="text-center mb-4">Small Game Project - Daedalus&#39; Maze</h1>
             <div class="text-center">
               Fredrik Lind 
               
                 <small>|</small>
-                May 25, 2020
+                Mar 22, 2019
               
             </div>
           </div>
           
           <article class="page-content  p-2">
           <div style="background-color: rgba(10, 10, 10, 0.8); width:100%; height:100%; padding-top:10px;">
+<div id="container">
+  <iframe id="video" width="1280" height="720" src="https://www.youtube.com/embed/rK4MIVfmG8w?autoplay=1&mute=1" title="Preview" frameborder="0" allowfullscreen></iframe>
+</div>
 <h2 id="introduction">Introduction</h2>
-<p>I made this project for the course &ldquo;Game Techniques for the Web&rdquo; during my time at Blekinge Institute of Technology.
-It is built with javascript, css and html.</p>
-<h2 id="metaballs">Metaballs</h2>
-<p>Metaballs are n-dimensional (in this case three-dimensional) isosurfaces, which are surface respresentations of points, that meld together at a chosen distance.
-Metaballs can be rendered in many different ways, but I have used ray-marching, which is a technique where rays are stepping through the space, one ray per each pixel on the screen, until they register collisions and returns a color.</p>
-<h2 id="how-the-project-works">How the project works</h2>
-<p>Simply put, the metaballs are generated at the start of the program in the javascript.
-Here they get a position and a radius.
-The metaballs are confined inside a box and bounce between its walls.
-This is done to make them collide with each other and not just move away from the area indefinitely.
-The metaballs information is then sent to the vertex and the fragment shaders.
-The ray-marching is then done per pixel inside this fragment shader.
-Here, a treshold is chosen and it tells the metaballs how close to each other they should be before melding.
-If a ray steps through the radius or the treshold between two metaballs, then it registers a hit and returns the color of the metaball based on the light in the scene.
-The light is stuck to the camera. 
-The metaballs are basically just points that moves around on the screen. 
-The ray-marching does the rest.
-The colors are randomized each time you refresh this page.</p>
-<h2 id="project">Project</h2>
-<div class="metaballs-container"> 
-      <canvas id="world" class="canvas" width="1280" height="720"></canvas>
-      <div id="overlay">
-        <div><span id="fps" style="color:white"></span></div>
-      </div>
-
-    <h2>Configuration</h2>
-    <p>
-        <input id="play"  type="button" value="Play" />
-        <input id="pause" type="button" value="Pause" />
-        <input id="reset" type="button" value="Randomize Colors" />
-        Speed: <input id="speed" type="range" step="1" min="1" max="100" value="1"/>
-    </p>
-
-    <table>
-        <tr>
-            <th></th><th>Sides (a,d)</th><th>Height (up,down)</th><th>Depth (w, s)</th>
-        </tr>
-        <tr>
-            <td>Camera Position</td>
-            <td><input id="camX" name="camX" type="number" value="0" /></td>
-            <td><input id="camY" name="camY" type="number" value="0" /></td>
-            <td><input id="camZ" name="camZ" type="number" value="0" /></td>
-        </tr>
-    </table>
-
-    
-    <script type="text/javascript" src="http://fredriklind.me/metaballs/js/metaballs.js"></script>
-
-    <script type="text/javascript" src="http://fredriklind.me/metaballs/lib/webgl-utils.js"></script>
-    <script type="text/javascript" src="http://fredriklind.me/metaballs/lib/my-utils.js"></script>
-    <script type="text/javascript" src="http://fredriklind.me/metaballs/lib/cuon-matrix.js"></script>
-    <script type="text/javascript" src="http://fredriklind.me/metaballs/lib/gl-matrix/dist/gl-matrix.js"></script>
+<p>This is the first game that I ever made and I worked together with four other students for the course &ldquo;Small Game Project&rdquo; at Blekinge Institute of Technology. 
+The project went on from January 2019 until late March 2019. 
+We all worked together in a room where we had ours desks placed together as a group.
+We followed the Agile Scrum methodology where we had meetings every morning and sprints to follow.
+Our sprints lasted for two weeks each.</p>
+<h2 id="about-the-game">About the game</h2>
+<p>The game was made with C++ with our own built OpenGL engine.
+The game is a horror where you are placed in a randomly generated labyrinth and have to find three buttons to press before you can escape.
+But you need to be careful, because there is a Minotaur walking along the halls.
+You start with some coins which you can throw to lure him in another direction.</p>
+<h2 id="my-contribution">My contribution</h2>
+<p>I programmed the particles for the torch, tessellation on the walls, the collisions between coins and walls so that the coins would bounce whenever they hit the walls, and the randomized placement of props.</p>
+<h2 id="fun-fact">Fun fact</h2>
+<p>A south korean Youtuber which seems to play smaller indie games found and played our game.
+The game has therefore been seen by more than 100k people.</p>
+<ul>
+<li>Here is the link to his Youtube channel: <a href="https://youtu.be/G0b1Zi4N9lg">김왼팔</a></li>
+</ul>
+<h2 id="emclick-here-to-download-the-gamehttpsgamejoltcomgamesdaedalusmaze404262em"><em><a href="https://gamejolt.com/games/daedalusmaze/404262">Click here to download the game</a></em></h2>
 </div>
-
 <script>
-     
-    let details = navigator.userAgent;
+  /* Storing user's device details in a variable*/
+  let details = navigator.userAgent;
 
-    
+  /* Creating a regular expression
+  containing some mobile devices keywords
+  to search it in details string*/
+  let regexp = /android|iphone|kindle|ipad/i;
 
-    let regexp = /android|iphone|kindle|ipad/i;
+  /* Using test() method to search regexp in details
+  it returns boolean value*/
+  let isMobileDevice = regexp.test(details);
 
-    
+  var figures = document.getElementsByClassName('figure');
+  var figTexts = document.getElementsByClassName('figText');
 
-    let isMobileDevice = regexp.test(details);
+  if (isMobileDevice) {
+      document.getElementById('video').width = "300";
+      document.getElementById('video').height = "168";
 
-    if (isMobileDevice) {
-        var ctx = document.getElementById("world");
-        ctx.width  = 150 * 2;
-        ctx.height = 84 * 2;
-    }
-</script>
-</div>
+      for (var i = 0; i < figures.length; i++)
+      {
+        figures[i].style.width = "300px";
+        figures[i].style.height = "168px";
+      }
+
+      for (var i = 0; i < figTexts.length; i++)
+      {
+        figTexts[i].style.width = "300px";
+      }
+  }
+</script><blockquote>
+</blockquote>
+
           </article>
         </div>
       </div>
