@@ -244,7 +244,7 @@ The game was made entirely programmatically with C#.
 This means that all the game objects are created on start and are not saved in the Unity Engine, which means that everything is created completely from code.
 I did this as a challenge so that I could learn C# better, but also so that I could get a better understanding of the content inside the Unity engine, such as the game object system, the component system, the physics, etc. Everthing is made by me, from sprites to music.</p>
 <br />
-<p>Note that the game is in progress, so this page will be updated continously.</p>
+<p>Note that the game is in progress, so this page will be updated continuously.</p>
 <h2 id="about-the-game">About the game</h2>
 <p>The game&rsquo;s objective is to keep your character alive, while building your own base and gathering an army to defeat the never ending horde of enemies.
 The player will build its base on the left side of the game field (see Figure 1) while the enemies will spawn on the right side (see Figure 2).
@@ -272,19 +272,19 @@ However, the player will loose if the king dies without a castle.</p>
 <div align="center" >
   <img class="figure" src="../resources/gameImages/shopandfighting.jpg" width="1080" title="Figure 3">
   <div class="figText" style="width:1080px">
-    Figur 3: The shop can be seen to the right. The player can open it with the "E" button. The soldiers will automatically attack enemies when they are in range.
+    Figur 3: The shop can be seen to the left. The player can open it with the "E" button. The soldiers will automatically attack enemies when they are in range.
   </div>
 </div>
 <br />
 <h2 id="code">Code</h2>
 <p>To save some performance, the soldiers&rsquo; and enemies&rsquo; movements are multithreaded (see Figure 4 - 6). 
-This is done by using Unity&rsquo;s &ldquo;Job system&rdquo; shown in Figure 6.
-The difficult part with multithreading in Unity is that Unity&rsquo;s game objects can not be multithreading due to &ldquo;thread-safety&rdquo;.
-This means that the movement first has to be calculated seperately, and then being applied to the game object&rsquo;s position at the main thread.</p>
+This is done by using Unity&rsquo;s &ldquo;job system&rdquo; shown in Figure 6.
+The difficult part with multithreading in Unity is that Unity&rsquo;s game objects can not be multithreaded due to &ldquo;thread-safety&rdquo;.
+This means that the movement first has to be calculated separately, and then being applied to the game object&rsquo;s position at the main thread.</p>
 <div align="center" >
   <img class="figure" src="../resources/gameImages/multithread1.jpg" width="1080" title="Figure 4">
   <div class="figText" style="width:1080px">
-    Figur 4: Here we look if the program is multithreaded. If it is, then we decide on which frame the characters should search for a new path to follow (in this case every 60th frame). This is done to maximize performance and is barely noticable in game.
+    Figur 4: Here we look if the program is multithreaded. If it is, then we decide on which frame the characters should search for a new path to follow (in this case every 60th frame). This is done to maximize performance and is barely noticable in-game.
   </div>
 </div>
 <br />
@@ -303,11 +303,11 @@ This means that the movement first has to be calculated seperately, and then bei
 </div>
 <br />
 <p>The [BurstCompile] command seen at the top of figure 6 is yet an additonal way to optimize the code. 
-It is a seperate compiler which will run execute the code even faster by further optimizing the code.
+It is a separate compiler which will run execute the code even faster by further optimizing the code.
 However, I have not yet succeeded in implementing it because it is even more strict to use than the job system.
 The burst compiler can not work with classes or Unity objects unless they are singletons.
 So for me to implement it would mean that I have to rethink bigger parts of my code structure, and I am not sure if it is worth it.
-I would definitely have planned for it if I knew that it existed while I started this project.</p>
+I would definitely have planned for it if I knew that it existed when I started this project.</p>
 <br />
 <p>I have made general classes to make sure that I do not have too many copies of the same code.
 One example is my UI manager class.
