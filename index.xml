@@ -60,12 +60,12 @@ About the project All of Unity&amp;rsquo;s physics are turned off. That means th
     </item>
     
     <item>
-      <title>COMING SOON</title>
+      <title>My Unity 2D Game - In Progress</title>
       <link>http://fredriklind.me/myunitygame/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://fredriklind.me/myunitygame/</guid>
-      <description></description>
+      <description>Introduction This is a 2D game that I am working on in Unity. I started this project because I wanted to be able to showcase a bigger project that I have done outside of school, on my own. But also because I love programming, especially programming for games. The game was made entirely programmatically with C#. This means that all the game objects are created on start and are not saved in the Unity Engine, which means that everything is created completely from code.</description>
     </item>
     
     <item>
