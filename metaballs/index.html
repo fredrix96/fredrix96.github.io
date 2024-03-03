@@ -25,7 +25,7 @@
     
     
     
-<script type="application/javascript">
+<script>
 var doNotTrack = false;
 if (!doNotTrack) {
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
@@ -45,8 +45,7 @@ Metaballs Metaballs are n-dimensional (in this case three-dimensional) isosurfac
 <meta property="article:modified_time" content="2020-05-25T00:00:00+00:00" /><meta property="og:site_name" content="My Portfolio" />
 
 
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Metaballs"/>
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Metaballs"/>
 <meta name="twitter:description" content="Introduction I made this project for the course &ldquo;Game Techniques for the Web&rdquo; during my time at Blekinge Institute of Technology. It is built with javascript, css and html.
 Metaballs Metaballs are n-dimensional (in this case three-dimensional) isosurfaces, which are surface respresentations of points, that meld together at a chosen distance. Metaballs can be rendered in many different ways, but I have used ray-marching, which is a technique where rays are stepping through the space, one ray per each pixel on the screen, until they register collisions and returns a color."/>
 
@@ -256,8 +255,8 @@ The metaballs information is then sent to the vertex and the fragment shaders.
 The ray-marching is then done per pixel inside this fragment shader.
 Here, a treshold is chosen and it tells the metaballs how close to each other they should be before melding.
 If a ray steps through the radius or the treshold between two metaballs, then it registers a hit and returns the color of the metaball based on the light in the scene.
-The light is stuck to the camera. 
-The metaballs are basically just points that moves around on the screen. 
+The light is stuck to the camera.
+The metaballs are basically just points that moves around on the screen.
 The ray-marching does the rest.
 The colors are randomized each time you refresh this page.</p>
 <h2 id="project">Project</h2>
@@ -288,12 +287,12 @@ The colors are randomized each time you refresh this page.</p>
     </table>
 
     
-    <script type="text/javascript" src="http://fredriklind.me/metaballs/js/metaballs.js"></script>
+    <script type="text/javascript" src="http://fredriklind.me//metaballs/js/metaballs.js"></script>
 
-    <script type="text/javascript" src="http://fredriklind.me/metaballs/lib/webgl-utils.js"></script>
-    <script type="text/javascript" src="http://fredriklind.me/metaballs/lib/my-utils.js"></script>
-    <script type="text/javascript" src="http://fredriklind.me/metaballs/lib/cuon-matrix.js"></script>
-    <script type="text/javascript" src="http://fredriklind.me/metaballs/lib/gl-matrix/dist/gl-matrix.js"></script>
+    <script type="text/javascript" src="http://fredriklind.me//metaballs/lib/webgl-utils.js"></script>
+    <script type="text/javascript" src="http://fredriklind.me//metaballs/lib/my-utils.js"></script>
+    <script type="text/javascript" src="http://fredriklind.me//metaballs/lib/cuon-matrix.js"></script>
+    <script type="text/javascript" src="http://fredriklind.me//metaballs/lib/gl-matrix/dist/gl-matrix.js"></script>
 </div>
 
 <script>
@@ -331,7 +330,7 @@ The colors are randomized each time you refresh this page.</p>
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-9 p-4">
         <div id="disqus_thread"></div>
-<script type="application/javascript">
+<script>
     window.disqus_config = function () {
     
     
@@ -457,12 +456,12 @@ The colors are randomized each time you refresh this page.</p>
     <div class="row justify-content-center">
         <div class="col-md-4 text-center">
             <div class="pb-2">
-                <a href="http://fredriklind.me" title="Fredrik Lind">
+                <a href="http://fredriklind.me/" title="Fredrik Lind">
                     <img alt="Footer logo" src="/resources/mylogo.png"
                         height="120px" width="120px">
                 </a>
             </div>
-            &copy; 2022  All Rights Reserved
+            &copy; 2024  All Rights Reserved
             
         </div>
     </div>

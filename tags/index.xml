@@ -6,33 +6,28 @@
     <description>Recent content in Tags on Fredrik Lind</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Apr 2021 22:53:58 +0530</lastBuildDate><atom:link href="http://fredriklind.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Apr 2021 22:53:58 +0530</lastBuildDate>
+    <atom:link href="http://fredriklind.me/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Emoji support</title>
+      <title>Emoji Support</title>
       <link>http://fredriklind.me/tags/emoji-support/</link>
       <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
-      
       <guid>http://fredriklind.me/tags/emoji-support/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>example</title>
+      <title>Example</title>
       <link>http://fredriklind.me/tags/example/</link>
       <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
-      
       <guid>http://fredriklind.me/tags/example/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Sample</title>
       <link>http://fredriklind.me/tags/sample/</link>
       <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
-      
       <guid>http://fredriklind.me/tags/sample/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

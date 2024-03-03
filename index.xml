@@ -6,77 +6,56 @@
     <description>Recent content on Fredrik Lind</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Apr 2021 22:53:58 +0530</lastBuildDate><atom:link href="http://fredriklind.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Apr 2021 22:53:58 +0530</lastBuildDate>
+    <atom:link href="http://fredriklind.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Emoji Support</title>
       <link>http://fredriklind.me/emoji-support/</link>
       <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
-      
       <guid>http://fredriklind.me/emoji-support/</guid>
-      <description>Emoji can be enabled in a Hugo project in a number of ways. :zap:
-Emoji Support The emojify function can be called directly in templates or Inline Shortcodes.
-To enable emoji globally, set enableEmoji to true in your site’s configuration and then you can type emoji shorthand codes directly in content files; e.g.
-The Emoji cheat sheet is a useful reference for emoji shorthand codes.
-N.B. The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform.</description>
+      <description>Emoji can be enabled in a Hugo project in a number of ways. :zap:&#xA;Emoji Support The emojify function can be called directly in templates or Inline Shortcodes.&#xA;To enable emoji globally, set enableEmoji to true in your site’s configuration and then you can type emoji shorthand codes directly in content files; e.g.&#xA;The Emoji cheat sheet is a useful reference for emoji shorthand codes.&#xA;N.B. The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform.</description>
     </item>
-    
     <item>
       <title>Large Game Project - Hell Loop</title>
       <link>http://fredriklind.me/hellloop/</link>
       <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>http://fredriklind.me/hellloop/</guid>
-      <description>Introduction I made this game together with 10 other students for the course &amp;ldquo;Large Game Project&amp;rdquo; at Blekinge Institute of Technology. The project went on from August 2020 until January 2021. We all worked from home through the program &amp;ldquo;Discord&amp;rdquo; thanks to the Covid pandemic. We followed the Agile Scrum methodology where we had meetings every morning and sprints to follow. Our sprints lasted for two weeks each.
-About the game The game was made with C++ with our own built DirectX 12 engine.</description>
+      <description>Introduction I made this game together with 10 other students for the course &amp;ldquo;Large Game Project&amp;rdquo; at Blekinge Institute of Technology. The project went on from August 2020 until January 2021. We all worked from home through the program &amp;ldquo;Discord&amp;rdquo; thanks to the Covid pandemic. We followed the Agile Scrum methodology where we had meetings every morning and sprints to follow. Our sprints lasted for two weeks each.&#xA;About the game The game was made with C++ with our own built DirectX 12 engine.</description>
     </item>
-    
     <item>
       <title>Metaballs</title>
       <link>http://fredriklind.me/metaballs/</link>
       <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
-      
       <guid>http://fredriklind.me/metaballs/</guid>
-      <description>Introduction I made this project for the course &amp;ldquo;Game Techniques for the Web&amp;rdquo; during my time at Blekinge Institute of Technology. It is built with javascript, css and html.
-Metaballs Metaballs are n-dimensional (in this case three-dimensional) isosurfaces, which are surface respresentations of points, that meld together at a chosen distance. Metaballs can be rendered in many different ways, but I have used ray-marching, which is a technique where rays are stepping through the space, one ray per each pixel on the screen, until they register collisions and returns a color.</description>
+      <description>Introduction I made this project for the course &amp;ldquo;Game Techniques for the Web&amp;rdquo; during my time at Blekinge Institute of Technology. It is built with javascript, css and html.&#xA;Metaballs Metaballs are n-dimensional (in this case three-dimensional) isosurfaces, which are surface respresentations of points, that meld together at a chosen distance. Metaballs can be rendered in many different ways, but I have used ray-marching, which is a technique where rays are stepping through the space, one ray per each pixel on the screen, until they register collisions and returns a color.</description>
     </item>
-    
     <item>
       <title>Small Game Project - Daedalus&#39; Maze</title>
       <link>http://fredriklind.me/daedalusmaze/</link>
       <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>http://fredriklind.me/daedalusmaze/</guid>
       <description>Introduction This is the first game that I ever made and I worked together with four other students for the course &amp;ldquo;Small Game Project&amp;rdquo; at Blekinge Institute of Technology. The project went on from January 2019 until late March 2019. We all worked together in a room where we had ours desks placed together as a group. We followed the Agile Scrum methodology where we had meetings every morning and sprints to follow.</description>
     </item>
-    
     <item>
       <title>Unity 2D: Game Physics - Projectiles, Explosions and Shockwaves</title>
       <link>http://fredriklind.me/physicsgame/</link>
       <pubDate>Thu, 22 Nov 2018 00:00:00 +0000</pubDate>
-      
       <guid>http://fredriklind.me/physicsgame/</guid>
-      <description>Introduction This small game project was done together with another student for the course &amp;ldquo;Game Physics&amp;rdquo; during my time at Blekinge Institute of Technology. It is built with C# in Unity 2D.
-About the project All of Unity&amp;rsquo;s physics are turned off. That means that all of the physics that are seen in this project have been made by us. The physics are based on real-life formulas of objects traveling through air with air resistance, the impacts and sizes of explosions and the speed and movement of their shockwaves.</description>
+      <description>Introduction This small game project was done together with another student for the course &amp;ldquo;Game Physics&amp;rdquo; during my time at Blekinge Institute of Technology. It is built with C# in Unity 2D.&#xA;About the project All of Unity&amp;rsquo;s physics are turned off. That means that all of the physics that are seen in this project have been made by us. The physics are based on real-life formulas of objects traveling through air with air resistance, the impacts and sizes of explosions and the speed and movement of their shockwaves.</description>
     </item>
-    
     <item>
       <title>My Unity 2D Game - In Progress</title>
       <link>http://fredriklind.me/myunitygame/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://fredriklind.me/myunitygame/</guid>
       <description>Introduction This is a 2D game that I am working on in Unity. I started this project because I wanted to be able to showcase a bigger project that I have done outside of school, on my own. But also because I love programming, especially programming for games. The game was made entirely programmatically with C#. This means that all the game objects are created on start and are not saved in the Unity Engine, which means that everything is created completely from code.</description>
     </item>
-    
     <item>
       <title>Smaller Projects</title>
       <link>http://fredriklind.me/smallprojects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://fredriklind.me/smallprojects/</guid>
-      <description>Introduction Here is my collection of smaller projects that I have been working on during the years. I put them here because I feel like it is good to show everything that I have done, but at the same time I do not want these smaller projects to get in the way for the bigger and &amp;ldquo;more important&amp;rdquo; ones. The projects are listed from earliest to latest.
-Projects Metaballs | 2020-05-25 Unity 2D: Game Physics - Projectiles, Explosions and Shockwaves | 2018-11-22 </description>
+      <description>&#xD;Introduction Here is my collection of smaller projects that I have been working on during the years. I put them here because I feel like it is good to show everything that I have done, but at the same time I do not want these smaller projects to get in the way for the bigger and &amp;ldquo;more important&amp;rdquo; ones. The projects are listed from earliest to latest.&#xA;Projects Metaballs | 2020-05-25 Unity 2D: Game Physics - Projectiles, Explosions and Shockwaves | 2018-11-22 </description>
     </item>
-    
   </channel>
 </rss>

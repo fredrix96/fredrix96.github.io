@@ -25,7 +25,7 @@
     
     
     
-<script type="application/javascript">
+<script>
 var doNotTrack = false;
 if (!doNotTrack) {
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
@@ -44,8 +44,7 @@ if (!doNotTrack) {
 <meta property="og:site_name" content="My Portfolio" />
 
 
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="My Unity 2D Game - In Progress"/>
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="My Unity 2D Game - In Progress"/>
 <meta name="twitter:description" content="Introduction This is a 2D game that I am working on in Unity. I started this project because I wanted to be able to showcase a bigger project that I have done outside of school, on my own. But also because I love programming, especially programming for games. The game was made entirely programmatically with C#. This means that all the game objects are created on start and are not saved in the Unity Engine, which means that everything is created completely from code."/>
 
     
@@ -237,8 +236,8 @@ My Unity 2D Game - In Progress | Fredrik Lind
           <article class="page-content  p-2">
           <div style="background-color: rgba(10, 10, 10, 0.8); width:100%; height:100%; padding-top:10px;">
 <h2 id="introduction">Introduction</h2>
-<p>This is a 2D game that I am working on in Unity. 
-I started this project because I wanted to be able to showcase a bigger project that I have done outside of school, on my own. 
+<p>This is a 2D game that I am working on in Unity.
+I started this project because I wanted to be able to showcase a bigger project that I have done outside of school, on my own.
 But also because I love programming, especially programming for games.
 The game was made entirely programmatically with C#.
 This means that all the game objects are created on start and are not saved in the Unity Engine, which means that everything is created completely from code.
@@ -277,7 +276,7 @@ However, the player will loose if the king dies without a castle.</p>
 </div>
 <br />
 <h2 id="code">Code</h2>
-<p>To save some performance, the soldiers&rsquo; and enemies&rsquo; movements are multithreaded (see Figure 4 - 6). 
+<p>To save some performance, the soldiers&rsquo; and enemies&rsquo; movements are multithreaded (see Figure 4 - 6).
 This is done by using Unity&rsquo;s &ldquo;job system&rdquo; shown in Figure 6.
 The difficult part with multithreading in Unity is that Unity&rsquo;s game objects can not be multithreaded due to &ldquo;thread-safety&rdquo;.
 This means that the movement first has to be calculated separately, and then being applied to the game object&rsquo;s position at the main thread.</p>
@@ -302,7 +301,7 @@ This means that the movement first has to be calculated separately, and then bei
   </div>
 </div>
 <br />
-<p>The [BurstCompile] command seen at the top of figure 6 is yet an additonal way to optimize the code. 
+<p>The [BurstCompile] command seen at the top of figure 6 is yet an additonal way to optimize the code.
 It is a separate compiler which will run execute the code even faster by further optimizing the code.
 However, I have not yet succeeded in implementing it because it is even more strict to use than the job system.
 The burst compiler can not work with classes or Unity objects unless they are singletons.
@@ -360,9 +359,7 @@ Without these type of classes, I would have to copy chunks of code like the two 
         figTexts[i].style.width = "300px";
       }
   }
-</script><blockquote>
-</blockquote>
-
+</script>
           </article>
         </div>
       </div>
@@ -379,7 +376,7 @@ Without these type of classes, I would have to copy chunks of code like the two 
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-9 p-4">
         <div id="disqus_thread"></div>
-<script type="application/javascript">
+<script>
     window.disqus_config = function () {
     
     
@@ -505,12 +502,12 @@ Without these type of classes, I would have to copy chunks of code like the two 
     <div class="row justify-content-center">
         <div class="col-md-4 text-center">
             <div class="pb-2">
-                <a href="http://fredriklind.me" title="Fredrik Lind">
+                <a href="http://fredriklind.me/" title="Fredrik Lind">
                     <img alt="Footer logo" src="/resources/mylogo.png"
                         height="120px" width="120px">
                 </a>
             </div>
-            &copy; 2022  All Rights Reserved
+            &copy; 2024  All Rights Reserved
             
         </div>
     </div>
